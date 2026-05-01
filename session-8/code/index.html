@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- internal css  -->
+    <style>
+      .card {
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <!-- <body onload="alert('Welcome')"> -->
+  <body>
+    <p id="sample">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+      tenetur.
+    </p>
+
+    <ul id="items">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ul>
+
+    <form>
+      <input
+        type="text"
+        id="age"
+        value=""
+        placeholder="Please enter age..."
+        oninput="userInputCapture()"
+      />
+    </form>
+
+    <p id="text" onmouseover="mouseOver()" style="background-color: olive">
+      Lorem, ipsum.
+    </p>
+
+    <button id="btn">Click!</button>
+
+    <form>
+      <input
+        type="text"
+        id="hobby"
+        value=""
+        placeholder="Please enter hobby..."
+      />
+    </form>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
